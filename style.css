@@ -255,7 +255,7 @@ section {
     gap: 10rem;
     height: 100vh;
     background-color: #0a0a0a;
-    background-image: url('./Assets/bg.png');
+    background-image: url('./Assets/bg.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -720,7 +720,12 @@ article h3{
     align-items: center;
     height: 65px;
     width: 105px;
- 
+}
+
+/* Facebook image round */
+#contact .rounded {
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 /* FOOTER */
